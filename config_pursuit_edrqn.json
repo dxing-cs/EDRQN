@@ -1,0 +1,23 @@
+{
+  "seed": 477758,
+  "cur_agent": "edrqn_edrqn",
+  "render": false,
+  "save_result": false,
+  "entropy_scale": 0.5,
+  "max_step": 300,
+  "mini_episode_len": 5,
+  "hidden_dim_1": 64,
+  "hidden_dim_2": 64,
+  "device": "cpu",
+  "lr": 1e-3,
+  "gamma": 0.9,
+  "epsilon": 0.1,
+  "buffer_size": 100000,
+  "batch_size": 16,
+  "max_norm": 10,
+  "tau": 0.01,
+  "total_step_to_anneal": null,
+  "total_episode_to_anneal": 1000,
+  "current_global_step": 0,
+  "current_episode": 0
+}
